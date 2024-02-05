@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+    <title>My First Website</title>
+    <h1>Welcome to My Website!</h1>
+</head>
+<body>
+<h2>Let's explore HTML together!</h2>
+<div class="header" style="background: greenyellow;">About Me</div>
+<p>nice to meet you thank you for visiting my website </p>
+<ul>
+   <li>I like Watching Movies</li>
+    <li>I love my car</li>
+    <li>I miss my hometown</li>
+   
+</ul> 
+  <p>Check out <a href="https://zoeleblanc.com/is310-computing-humanities-2024//">is310 website</a> to find out more about HTML!</p>
+  <style>
+    body {background-color: powderblue;}
+    h1 {color: rgb(219, 3, 136);}
+    p {color: rgb(0, 112, 79);}
+  </style>
+ <button id="changeColorButton">Change Background Color</button>
+ <script>
+    document.getElementById('changeColorButton').onclick = function() {
+        document.body.style.backgroundColor = 'LightCoral';
+    }
+</script>
+</body>
+</html>
